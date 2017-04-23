@@ -1,0 +1,48 @@
+{
+  "name": "multicom",
+  "version": "0.0.1",
+  "description": "Your own swarm of intercommunicating processes!",
+  "author": "Diego Nunes <work@dnunes.com> (http://dnunes.com)",
+  "homepage": "http://dnunes.com/multicom/",
+
+  "main": "index.js",
+  "scripts": {
+    "cover": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -c",
+    "test": "./node_modules/.bin/mocha -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnunes/multicom/"
+  },
+
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+
+  "keywords": [
+    "communication",
+    "processes",
+    "child",
+    "fork",
+    "multicom",
+    "dnode",
+    "ipc",
+    "intercom",
+    "rpc",
+    "messages"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "rewire": "^2.5.2",
+    "sinon": "^2.1.0"
+  },
+  "dependencies": {
+    "dnode": "^1.2.2"
+  }
+}
